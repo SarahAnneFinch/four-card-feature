@@ -1,0 +1,124 @@
+<style>
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+ body {
+   background-color: #f8f8f8;
+   font-family: 'Poppins', sans-serif;
+ }
+
+ p {
+   font-size: 15px;
+   font-weight: 200;
+ }
+
+  #light-title {
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  #intro-text {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+    margin: 0 35% 8% 35%
+  }
+
+  .boxes {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 'left center right' ;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+  }
+
+  .container {
+    padding: 20px 30px 100px 30px;
+  }
+
+  img {
+    padding: 50px 0 0 0;
+    margin-left: 350px;
+    margin-top: 50px;
+  }
+
+  .supervisor-card {
+    background-color: white;
+    margin-right: 70%;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-top: 5px solid cyan;
+    width: 30rem;
+    height: 20rem;
+    grid-area: left;
+    margin-top: 100px;
+    border-radius: 2%;
+  }
+
+  #supervisor-text {
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  .team-card {
+    background-color: white;
+    margin-right: 70%;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-top: 5px solid red;
+    width: 30rem;
+    height: 20rem;
+    grid-area: center;
+    grid-row: 1;
+    margin-top: -50px;
+    border-radius: 2%;
+  }
+
+  #team-text {
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  .karma-card {
+    background-color: white;
+    margin-right: 70%;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-top: 5px solid orange;
+    width: 30rem;
+    height: 20rem;
+    grid-area: center;
+    grid-row: 2;
+    margin-top: -150px;
+    border-radius: 2%;
+  }
+
+  #karma-text {
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  .calculator-card {
+    background-color: white;
+    margin-right: 70%;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-top: 5px solid blue;
+    width: 30rem;
+    height: 20rem;
+    grid-area: right;
+    margin-top: 100px;
+    border-radius: 2%;
+  }
+
+  #calculator-text {
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 5%;
+  }
+</style>
